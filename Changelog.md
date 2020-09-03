@@ -1,5 +1,7 @@
 ### 0.7.2 (unreleased)
 
+Compiler Features:
+ * Export compiler-generated utility sources via standard-json or combined-json.
 
 
 ### 0.7.1 (2020-09-02)
