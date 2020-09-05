@@ -105,6 +105,8 @@ u256 EVMInstructionInterpreter::eval(
 		return arg[0] - arg[1];
 	case Instruction::DIV:
 		return arg[1] == 0 ? 0 : arg[0] / arg[1];
+	case Instruction::DOUBLE:
+		return arg[0] + arg[0];
 	case Instruction::SDIV:
 		return arg[1] == 0 ? 0 : s2u(u2s(arg[0]) / u2s(arg[1]));
 	case Instruction::MOD:

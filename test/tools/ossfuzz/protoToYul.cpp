@@ -279,6 +279,9 @@ void ProtoConverter::visit(BinaryOp const& _x)
 	case BinaryOp::ADD:
 		m_output << "add";
 		break;
+	case BinaryOp::DOUBLE:
+		m_output << "double";
+		break;
 	case BinaryOp::SUB:
 		m_output << "sub";
 		break;
