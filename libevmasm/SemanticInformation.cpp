@@ -87,6 +87,7 @@ bool SemanticInformation::isCommutativeOperation(AssemblyItem const& _item)
 	case Instruction::MUL:
 	case Instruction::EQ:
 	case Instruction::AND:
+	case Instruction::DOUBLE:
 	case Instruction::OR:
 	case Instruction::XOR:
 		return true;

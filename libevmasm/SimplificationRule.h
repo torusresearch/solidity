@@ -154,6 +154,7 @@ struct EVMBuiltins
 	static auto constexpr REVERT = PatternGenerator<Instruction::REVERT>{};
 	static auto constexpr INVALID = PatternGenerator<Instruction::INVALID>{};
 	static auto constexpr SELFDESTRUCT = PatternGenerator<Instruction::SELFDESTRUCT>{};
+	static auto constexpr DOUBLE = PatternGenerator<Instruction::DOUBLE>{};
 };
 
 }
